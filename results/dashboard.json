@@ -1,0 +1,156 @@
+[
+  {
+    "repo": "rag-eval-platform",
+    "exists": true,
+    "artifacts": [
+      {
+        "path": "results/scenario_a.json",
+        "type": "json"
+      },
+      {
+        "path": "results/baseline.json",
+        "type": "json"
+      }
+    ],
+    "summary": "overall 90%",
+    "score": 0.8972
+  },
+  {
+    "repo": "chunk-lab",
+    "exists": true,
+    "artifacts": [
+      {
+        "path": "results/chunk_experiment.json",
+        "type": "json"
+      }
+    ],
+    "summary": "best=fixed (100%)",
+    "score": 1.0
+  },
+  {
+    "repo": "prompt-bench-local",
+    "exists": true,
+    "artifacts": [
+      {
+        "path": "results/prompt_bench.json",
+        "type": "json"
+      }
+    ],
+    "summary": "best=directo (67%)",
+    "score": 0.6667
+  },
+  {
+    "repo": "faithfulness-guard",
+    "exists": true,
+    "artifacts": [],
+    "summary": "componente activo",
+    "score": null
+  },
+  {
+    "repo": "rag-trace-local",
+    "exists": true,
+    "artifacts": [],
+    "summary": "repo listo, sin runs recientes",
+    "score": null
+  },
+  {
+    "repo": "retrieval-tuner-local",
+    "exists": true,
+    "artifacts": [
+      {
+        "path": "results/retrieval_tune.json",
+        "type": "json"
+      }
+    ],
+    "summary": "top_k=1 min_score=0.25 (75%)",
+    "score": 0.75
+  },
+  {
+    "repo": "citation-auditor-local",
+    "exists": true,
+    "artifacts": [
+      {
+        "path": "results/citation_audit.json",
+        "type": "json"
+      }
+    ],
+    "summary": "passed 2/4",
+    "score": 0.5
+  },
+  {
+    "repo": "synthetic-qa-local",
+    "exists": true,
+    "artifacts": [],
+    "summary": "repo listo, sin runs recientes",
+    "score": null
+  },
+  {
+    "repo": "context-overlap-lab",
+    "exists": true,
+    "artifacts": [
+      {
+        "path": "results/overlap_report.json",
+        "type": "json"
+      }
+    ],
+    "summary": "answer_context 39%",
+    "score": 0.3926
+  },
+  {
+    "repo": "abstention-lab-local",
+    "exists": true,
+    "artifacts": [
+      {
+        "path": "results/abstention_calibration.json",
+        "type": "json"
+      }
+    ],
+    "summary": "score=0.35 overlap=0.5 (80%)",
+    "score": 0.8
+  },
+  {
+    "repo": "doc-drift-lab",
+    "exists": true,
+    "artifacts": [
+      {
+        "path": "results/doc_drift.json",
+        "type": "json"
+      }
+    ],
+    "summary": "delta=+0% B=100%",
+    "score": 1.0
+  },
+  {
+    "repo": "rag-smoke-local",
+    "exists": true,
+    "artifacts": [
+      {
+        "path": "results/smoke_report.json",
+        "type": "json"
+      }
+    ],
+    "summary": "passed 15/15",
+    "score": 1.0
+  },
+  {
+    "repo": "local-rag-pipeline",
+    "exists": true,
+    "artifacts": [],
+    "summary": "componente activo",
+    "score": null
+  },
+  {
+    "repo": "local-ai-agents",
+    "exists": true,
+    "artifacts": [],
+    "summary": "componente activo",
+    "score": null
+  },
+  {
+    "repo": "eval-hub-local",
+    "exists": true,
+    "artifacts": [],
+    "summary": "componente activo",
+    "score": null
+  }
+]

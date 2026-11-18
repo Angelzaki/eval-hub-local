@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eval-hub-local"
+version = "0.1.0"
+description = "Dashboard HTML local que agrega resultados de labs de IA"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Angel Salazar" }]
+dependencies = ["pytest>=8.0.0", "rich>=13.7.0"]
+
+[project.scripts]
+eval-hub = "eval_hub.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
